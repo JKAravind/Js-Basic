@@ -1,0 +1,46 @@
+
+
+.beforeStart{
+    color: black;
+}
+
+.AfterStart{
+    color: black;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(100px, 1fr));
+    grid-template-rows: repeat(3,minmax(100px, 1fr));
+
+    background-color: #00002c;
+   gap: 10px;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+}
+
+.child{
+    max-height: 100px;
+    max-width: 100px;
+    background-color: rgb(111, 187, 254);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child b{
+    font-size: 5rem;
+    color: rgb(249, 0, 0);
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 209, 103);
+    height: 100vh;
+    width: 100vw;
+}

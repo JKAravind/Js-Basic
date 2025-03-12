@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="main">
+        <h1>Tic Tac Toe Game</h1>
+
+        <div class="options">
+            <button onclick=gameStart()>Start</button>
+            <button>End</button>
+        </div>
+
+        <div id="game-status" class="beforeStart">
+            Game is Yet to Start
+        </div>
+
+        <div class="status">
+
+        </div>
+
+        
+
+
+        <div class="parent">
+            <div class="child" id="00" onclick=userPlayed(event)></div>
+            <div class="child" id="01" onclick=userPlayed(event)></div>
+            <div class="child" id="02" onclick=userPlayed(event)></div>
+    
+            <div class="child" id="10" onclick=userPlayed(event)></div>
+            <div class="child" id="11" onclick=userPlayed(event)></div>
+            <div class="child" id="12" onclick=userPlayed(event)></div>
+
+             
+            <div class="child" id="20" onclick=userPlayed(event)></div>
+            <div class="child" id="21" onclick=userPlayed(event)></div>
+            <div class="child" id="22" onclick=userPlayed(event)></div>
+    
+    
+    
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
