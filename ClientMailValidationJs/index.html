@@ -4,14 +4,25 @@
 
     <head>
         <title>Client Validation</title>
+        <link rel="stylesheet" href="style.css">
 
     </head>
 
     <body>
+        <div id="form-container">
 
-        <input type="email" id="emailBox" placeholder="Enter your mail">
-        <span id="errorMessage"></span>
-        <button onclick="clientValidate()"> Submit</button>
+            <input type="email" id="emailBox" placeholder="Enter your mail">
+            <button onclick="clientValidate()"> Submit</button>
+
+        </div>
+
+        <div id="error-container">
+            <span id="errorMessage"></span>
+        </div>
+
+
+
+
     <script src="script.js"></script>
     </body>
 </html>

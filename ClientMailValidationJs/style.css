@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+button{
+    height: 40px;
+    width: 160px;
+    border-radius: 4px;
+    margin: 10px;
+    padding: auto;
+
+}
+input{
+    height: 40px;
+    width: 160px;
+    border-radius: 4px;
+    padding: auto;
+}
+span{
+    font-size: 40px;
+    font-style: bold;
+}
