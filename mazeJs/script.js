@@ -45,10 +45,10 @@ function grid(i,j){
         let[row , col] = direction[count]
         console.log(row,col)
         grid(i+row,j+col)
-
     }
     return 
 }
+
 
 
 function shuffleArray(direction){
@@ -63,13 +63,6 @@ function shuffleArray(direction){
         console.log(direction[randomIndex]);
 
         [direction[idx],direction[randomIndex]] = [direction[randomIndex],direction[idx]]
-
-        
-        // temp = direction[idx];
-
-        // direction[idx] = direction[randomIndex];
-
-        // direction[randomIndex] = temp;
         
 
     }

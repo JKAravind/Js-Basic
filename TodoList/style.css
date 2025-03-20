@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+    border: solid;
+}
+#inside-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: solid;
+    height: 80%;
+    width: 80%;
+}
+.containerElement{
+    width: 100%;
+}
+#input-container{
+    display: flex;
+    justify-content: center;
+}
+.taskCell{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+
+
+
+
